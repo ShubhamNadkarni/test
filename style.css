@@ -1,0 +1,212 @@
+.topstuff{
+    text-align: center;
+    font-size: xx-large;
+    color: grey;
+   
+}
+
+h1,h2,p{
+    margin: 0%;
+}
+.bgpic{
+
+    width: 100%;
+    height: 60%;
+    color: white;
+    background-image:url("pexels-photo-248515.png");
+    z-index: -1;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+    
+}
+
+.button {
+    background-color: #8c8f8c; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button:hover {
+    background-color: #84c8f0 ; 
+    color: white;
+  }
+  
+html,body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textonimg{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-style: bold;
+
+    
+}
+
+.pad{
+    padding: 20px;
+    
+
+}
+
+.textu2{
+    
+    z-index: 2;
+    text-align: center;
+    color: black;
+    font-style: bold;
+    background-color: lightgrey;
+    margin: 0%;
+    height: 30%;
+}
+
+.text3{
+    
+    z-index: 2;
+    text-align: center;
+    color: grey;
+    font-style: bold;
+    background-color: rgb(68, 65, 65);
+    margin: 0%;
+    height: 30%;
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    color: white;
+    background-image:url("pexels-photo-248515.png");
+    z-index: -1;
+    opacity: 0.4;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  
+.header {
+    width: 100%;
+    height: 80%;
+    background-image:url("pexels-photo-248515.png");
+    z-index: -1;
+    opacity: 0.4;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.div2{
+    height: 20%;
+    background-color: lightblue;
+    text-align: center;
+    font-size: xx-large;
+    color: grey;
+   
+}
+
+ .centered {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align:center;
+    text-transform: capitalize;
+   
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+
+      .contact {
+        width: 50%;
+        float: left;
+        height: 40%;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(116, 191, 235);
+      }
+
+      .about {
+        width: 50%;
+        height: 40%;
+        font-size: 20px;
+        float: left;
+        color: white;
+        text-align: center;
+        background-color:grey;
+      }
+      
+
+
+
+
+.grid-container{
+
+        max-width: 100%;
+        height: 80% auto;
+        background-color: #353636;
+        padding : 180px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: small;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 1rem;
+}
+
+.grid-item {
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 0px;
+        font-size: 20px;
+        text-align: center;
+        color : black;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+
+@media (min-width : 400px){
+    .grid-container { grid-template-columns:repeat(auto-fit, 1, 1fr) ;  padding: 10px; }
+}
+      
+
+@media (min-width : 600px){
+    .grid-container { grid-template-columns:repeat(2, 1fr) ;    }
+}
+
+
+@media (min-width : 900px){
+    .grid-container { grid-template-columns:repeat(3, 1fr) ;   padding : 180px; padding-top: 50px;
+        padding-bottom: 50px; }
+}
+
+
+
+.footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
